@@ -31,23 +31,10 @@ address{
 
 body{
     padding:50px 0px 0px 0px;
-    z-index:0;
+    z-index:1;
 }
 
 .navbar-dark {
      background-color: #512DA8;
 }
 
-.arr-right .breadcrumb-item+.breadcrumb-item::before {
- 
-  content: "›";
- 
-  vertical-align:top;
- 
-  color: #408080;
- 
-  font-size:35px;
- 
-  line-height:18px;
- 
-}
